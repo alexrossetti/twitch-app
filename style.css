@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    height: 100px;
+    background-color: #AA78A6;
+    margin: 20px 0px 30px;
+    border-radius: 2%;
+    border: 1px solid #cccccc;
+    color: white;
+}
+
+#streamer-choice {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+#streamer-choice button {
+    background-color: #AA78A6;
+    border-radius: 2%;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+}
+
+#streamer-choice button:hover {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#streamer-choice .active {
+    background-color: #bdffbd;
+    color: #000000;
+}
+
+#header h1 {
+    line-height: 100px;
+}
+
+.streamer {
+    border: 1px solid #333333;
+    margin: 0px auto 40px;
+}
+
+.streamer:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 150px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.online {
+    background-color: green;
+    color: white;
+}
+
+.offline {
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 576px){
+
+    #streamer-choice {
+        line-height: 30px;
+        width: 80%;
+        margin: 0 auto 40px;
+    }
+
+    #streamer-choice button{
+        margin: 0px auto;
+        font-size: 16px !important;
+    }
+
+    .streamer {
+        width: 66%;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 300px){
+
+    #header {
+        display: none;
+    }
+
+    #streamer-choice {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .streamer {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .card-body p {
+        display: none;
+    }
+
+}
+
+@media (max-width: 250px){
+
+    #streamer-choice {
+        margin-top: 10px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #streamer-choice button{
+        font-size: 14px !important;
+        text-align: left;
+        padding: 0px 0px 0px 5px;
+    }
+
+}
