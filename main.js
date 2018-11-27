@@ -1,5 +1,3 @@
-
-//var channels = ['doctorbenjy', 'snookerstreaming', 'freecodecamp', 'tinny'];
 var channels = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "draskyl", "sheevergaming", "CohhCarnage"];
 
 
